@@ -18,7 +18,6 @@ def main():
         line = input("> ")
         description.append(line)
     
-    #path = IDEAS_FOLDER / f"{str(get_number())}.md"
     path = IDEAS_FOLDER / f"{title}.md"
     with path.open("w") as idea_file:
         idea_file.write(f"# {title}\n")
