@@ -5,9 +5,6 @@ import os
 # Folder for ideas
 IDEAS_FOLDER = Path(os.environ["HOME"]) / ".local/share/ideas/"
 
-def ideas_folder_exists():
-    return IDEAS_FOLDER.exists()
-
 def main():
     title = input("What is your idea? ")
 
